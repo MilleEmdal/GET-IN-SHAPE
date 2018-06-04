@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GetInShap
+//  GET´IN SHAPE
 //
-//  Created by Mille  Emdal on 26/05/2018.
+//  Created by Mille  Emdal on 31/05/2018.
 //  Copyright © 2018 Mille  Emdal. All rights reserved.
 //
 
