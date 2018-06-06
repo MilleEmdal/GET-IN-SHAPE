@@ -2,7 +2,7 @@
 //  MapViewController.swift
 //  GET´IN SHAPE
 //
-//  Created by Mille  Emdal on 02/06/2018.
+//  Created by Mille  Emdal on 02/05/2018.
 //  Copyright © 2018 Mille  Emdal. All rights reserved.
 //
 
@@ -12,39 +12,33 @@ import CoreLocation
 
 class MapViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
 
-    @IBAction func SearcButton(_ sender: Any) {
-        
-        
-        
-    }
-    
-        
-    
+  
     @IBOutlet weak var map: MKMapView!
     
-//    let manager = CLLocationManager()
+    let manager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        manager.delegate = self
-//        manager.desiredAccuracy = kCLLocationAccuracyBest
-//        manager.requestWhenInUseAuthorization()
-//        manager.startUpdatingLocation()
-//    }
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestWhenInUseAuthorization()
+        manager.requestLocation()
+        manager.startUpdatingLocation()
+    }
     
-    // function to update the map
-//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//     function to update the map
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
     
-//        let location = locations[0]
+       let location = locations[0]
     
-//        let center = location.coordinate
-    
-//        let span = MKCoordinateSpan (latitudeDelta: 0.05, longitudeDelta: 0.05)
-//        let region = MKCoordinateRegion (center: center, span: span)
-    
-//        map.setRegion(region, animated: true)
-//        map.showsUserLocation = true
+        let center = location.coordinate
+
+        let span = MKCoordinateSpan (latitudeDelta: 0.05, longitudeDelta: 0.05)
+        let region = MKCoordinateRegion (center: center, span: span)
+
+        map.setRegion(region, animated: true)
+        map.showsUserLocation = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -52,7 +46,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, UISearchBa
         // Dispose of any resources that can be recreated.
     }
     
-
-  
-
 }
+
+
+

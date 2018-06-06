@@ -19,6 +19,7 @@
 		9626216A20C0A5CC00A82F89 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 9626216820C0A5CB00A82F89 /* more.png */; };
 		9626216D20C0A70D00A82F89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626216C20C0A70D00A82F89 /* MapKit.framework */; };
 		9626216F20C0A71E00A82F89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626216E20C0A71E00A82F89 /* CoreLocation.framework */; };
+		96AB92FD20C75C13008CCA8C /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB92FC20C75C13008CCA8C /* MoreViewController.swift */; };
 		96C6F3A020C33E63001E3270 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6F39F20C33E63001E3270 /* MapViewController.swift */; };
 		96C6F3A120C33E63001E3270 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6F39F20C33E63001E3270 /* MapViewController.swift */; };
 		96C6F3A220C33E63001E3270 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6F39F20C33E63001E3270 /* MapViewController.swift */; };
@@ -60,6 +61,7 @@
 		9626216820C0A5CB00A82F89 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = ../../../../../../../Downloads/more.png; sourceTree = "<group>"; };
 		9626216C20C0A70D00A82F89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9626216E20C0A71E00A82F89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		96AB92FC20C75C13008CCA8C /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		96C6F39F20C33E63001E3270 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				96C6F39F20C33E63001E3270 /* MapViewController.swift */,
 				9626213520C09E6C00A82F89 /* AppDelegate.swift */,
 				9626213720C09E6C00A82F89 /* FirstViewController.swift */,
+				96AB92FC20C75C13008CCA8C /* MoreViewController.swift */,
 				9626216520C0A5BF00A82F89 /* home.png */,
 				9626216720C0A5CB00A82F89 /* map.png */,
 				9626216820C0A5CB00A82F89 /* more.png */,
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9626213620C09E6C00A82F89 /* AppDelegate.swift in Sources */,
+				96AB92FD20C75C13008CCA8C /* MoreViewController.swift in Sources */,
 				9626213820C09E6C00A82F89 /* FirstViewController.swift in Sources */,
 				96C6F3A020C33E63001E3270 /* MapViewController.swift in Sources */,
 			);
